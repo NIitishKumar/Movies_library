@@ -45,7 +45,7 @@ function HomePage() {
   };
 
   const handleSearch = async (e) => {
-    if (e.target.value[0] === " ") {
+    if (e.target.value[0] === " ") { 
       e.target.value = "";
     } else {
       if (e.target.value) {
